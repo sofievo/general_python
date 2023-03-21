@@ -1,22 +1,8 @@
 import numpy as np
-import cmath
 import matplotlib.pyplot as plt
 
 
-## Spørsmål 1
-z1 = complex(2,5)
-z2 = complex(2,1)
-z3 = complex(1,-1)
-z4 = complex(1,-2)
-# regner ut z
-z = (z1*z2*z3)/z4
-# regner ut magnituden (evt funker abs(z))
-mag = np.sqrt(z.real**2 + z.imag**2)
-mag = np.round(mag,2)
-print('z = '+ str(z) + '\n|z| = ' + str(mag))
 
-
-## Spørsmål 3
 dt = 0.1 # steg
 t = np.arange(0, 10 + dt, dt) # tidsakse
 vec0 = np.array([1,0,0]) # initialverdi
